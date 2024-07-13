@@ -1,6 +1,7 @@
 import { app } from "./app";
+import { env } from "./utils/env";
 
-const port = 3000;
+const port = env.PORT;
 
 app
   .listen({
