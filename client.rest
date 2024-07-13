@@ -1,0 +1,7 @@
+@host = http://localhost:3333
+
+###
+
+# @name GET-TRIPS
+GET {{host}}/trips
+content-type: application/json 
